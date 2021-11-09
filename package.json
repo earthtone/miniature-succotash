@@ -1,0 +1,22 @@
+{
+  "name": "self-repeating-inflexibleness",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "wtr --config ./web-dev.server.config.mjs"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/dev-server-esbuild": "^0.2.16",
+    "@web/test-runner": "^0.13.21",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "callbag-state": "^0.2.5",
+    "callbag-subscribe": "^1.5.1",
+    "uhtml": "^2.7.6"
+  }
+}

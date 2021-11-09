@@ -1,0 +1,28 @@
+/*
+ *  Reset CSS
+ *  Inspired by Paul Irish & Eric Meyer
+ *  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ *  https://meyerweb.com/eric/tools/css/reset
+ *
+ * */
+
+html {
+  font: 18px / 1.2;
+  box-sizing: border-box;
+}
+
+html *,
+html *:before,
+html *:after {
+  box-sizing: inherit;
+}
+
+body, body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
