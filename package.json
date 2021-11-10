@@ -15,6 +15,7 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
+    "@web/test-runner-playwright": "^0.8.8",
     "callbag-state": "^0.2.5",
     "callbag-subscribe": "^1.5.1",
     "uhtml": "^2.7.6"
